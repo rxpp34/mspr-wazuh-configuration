@@ -1,5 +1,5 @@
 curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh 
-wget https://raw.githubusercontent.com/rxpp34/mspr-wazuh-configuration/main/config.yml
+wget https://github.com/rxpp34/mspr-wazuh-installation/blob/main/config.yml
 
 bash wazuh-install.sh --generate-config-files
 
