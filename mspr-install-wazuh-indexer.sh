@@ -1,3 +1,9 @@
+cd /tmp
+
+mkdir wazuh-install
+
+cd wazuh-install
+
 curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh 
 
 bash wazuh-install.sh --generate-config-files
